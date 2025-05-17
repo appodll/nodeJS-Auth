@@ -1,0 +1,21 @@
+{
+  "name": "flicksy-nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "device-detector-js": "^3.0.3",
+    "express": "^5.1.0",
+    "express-useragent": "^1.0.15",
+    "multer": "^1.4.5-lts.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^7.0.3"
+  }
+}
