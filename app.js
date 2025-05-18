@@ -15,7 +15,7 @@ var db = mysql.createConnection({
     "host": "localhost",
     "user": "root",
     "database": "flicksy",
-    "password": "3122005x"
+    "password": ""
 })
 
 function getTokenInfo(token, callback) {
